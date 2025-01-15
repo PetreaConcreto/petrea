@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pétrea - Design em Concreto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background: #2a2a2a;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 3px solid #ddd;
+        }
+
+        header img {
+            max-width: 250px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 3rem;
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .product-item {
+            width: 30%;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .product-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #007BFF;
+        }
+
+        .product-item h3 {
+            font-size: 1.6rem;
+            color: #007BFF;
+            padding: 20px;
+        }
+
+        .product-item p {
+            padding: 0 20px 20px;
+            color: #555;
+        }
+
+        .contact-info {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2a2a2a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 2px solid #ddd;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .product-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.webp" alt="Logo da Pétrea">
+        <h1>Pétrea - Design em Concreto</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bem-vindo à Pétrea</h2>
+        <p>A Pétrea é uma marca especializada em peças decorativas de concreto, localizada em Bauru, SP. Desde 2024, combinamos funcionalidade, sofisticação e durabilidade em cada produto, criando peças únicas que trazem modernidade e estilo ao seu ambiente.</p>
+
+        <p>Com um portfólio diversificado, nossos produtos são ideais para quem procura unir beleza e praticidade, seja para decoração de interiores, presentear alguém especial ou complementar ambientes externos. A Pétrea oferece peças feitas manualmente, com um design minimalista e atemporal, sempre prezando pela qualidade e exclusividade.</p>
+
+        <h2>Nossos Produtos</h2>
+
+        <div class="product-list">
+            <div class="product-item">
+                <img src="peso.webp" alt="Pesos de Porta">
+                <h3>Pesos de Porta</h3>
+                <p>Elegância e funcionalidade em um único item. Nossos pesos de porta são peças artesanais de concreto que garantem a estabilidade das portas, evitando que fechem ou batam com o vento. São perfeitos para dar um toque especial à sua decoração.</p>
+            </div>
+
+            <div class="product-item">
+                <img src="vaso.jpg" alt="Vasos Decorativos">
+                <h3>Vasos Decorativos</h3>
+                <p>Minimalistas, sofisticados e resistentes, nossos vasos de concreto são ideais para realçar a beleza das suas plantas, seja no interior ou exterior. Cada vaso é feito com a atenção aos detalhes para criar um equilíbrio perfeito entre natureza e design moderno.</p>
+            </div>
+
+            <div class="product-item">
+                <img src="vela.jpg" alt="Velas Decorativas">
+                <h3>Velas Decorativas</h3>
+                <p>As velas de concreto da Pétrea são o toque final que falta para dar sofisticação ao seu ambiente. Com bases de concreto, elas criam uma atmosfera acolhedora e contemporânea, sem perder o estilo e a elegância.</p>
+            </div>
+        </div>
+
+        <h2>Nosso Diferencial</h2>
+        <p>A Pétrea se distingue pelo processo artesanal de produção e pela qualidade incomparável de seus produtos. Cada peça é única, feita manualmente, com atenção especial a cada detalhe. A combinação do concreto com o design moderno e minimalista garante produtos que são duráveis e visualmente impactantes. Nosso compromisso é criar peças que não apenas atendem às suas necessidades, mas também tornam os espaços mais bonitos e autênticos.</p>
+
+        <h2>Entre em Contato</h2>
+        <p>Fique à vontade para entrar em contato conosco para saber mais sobre nossos produtos ou realizar um pedido. Estamos prontos para atender você!</p>
+        <div class="contact-info">
+            <p>📞 WhatsApp: <a href="https://wa.me/5514991097985" target="_blank">(14) 99109-7985</a></p>
+            <p>🌐 <a href="https://www.facebook.com/marketplace/profile/100074865330519/?locale=pt_BR" target="_blank">Visite nossa loja no Facebook Marketplace</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pétrea - Design em Concreto. Todos os direitos reservados.</p>
+        <p>Feito com dedicação para você em Bauru, SP.</p>
+    </footer>
+
+</body>
+
+</html>
+
